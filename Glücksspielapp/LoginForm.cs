@@ -44,7 +44,7 @@ namespace Glücksspielapp
             {
                 MessageBox.Show("Login erfolgreich!");
                 this.Hide(); // LoginForm schließen
-                MainForm mainForm = new MainForm(); // Hauptfenster öffnen (falls vorhanden)
+                Main_Form mainForm = new Main_Form(); // Hauptfenster öffnen (falls vorhanden)
                 mainForm.Show();
             }
             else

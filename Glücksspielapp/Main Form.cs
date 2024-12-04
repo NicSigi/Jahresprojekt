@@ -19,7 +19,22 @@ namespace Glücksspielapp
 
         private void Main_Form_Load(object sender, EventArgs e)
         {
+            lblWelcome.Text = "Willkommen im Glücksspiel-App!";
+        }
 
+        private void BtnPlayRoulette_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Roulette starten!");
+        }
+
+        private void BtnPlayMines_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Mines starten!");
+        }
+
+        private void BtnPlayBlackjack_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Blackjack starten!");
         }
 
 
